@@ -4,7 +4,7 @@
     if (!window.Lampa) return;
 
     const SOURCE = 'UA Stream (UASerials + UAKino)';
-    const PROXY = 'https://corsproxy.io/?'; // якщо не працює — скажи, дам інший
+    const PROXY = 'https://corsproxy.io/?';
 
     function load(url){
         return fetch(PROXY + encodeURIComponent(url), {
